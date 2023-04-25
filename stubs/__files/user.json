@@ -1,0 +1,5 @@
+{
+  "id": "$(!RandomInteger)",
+  "username": "$(username)",
+  "password": "$(password)"
+}

@@ -1,0 +1,35 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "POST",
+        "url": "/user",
+        "headers": {
+          "Content-Type": {
+            "equalTo": "application/json"
+          }
+        },
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "username": "${json-unit.any-string}",
+              "password": "${json-unit.any-string}"
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "bodyFileName": "user.json",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "transformers": [
+          "body-transformer"
+        ]
+      }
+    }
+  ]
+}
