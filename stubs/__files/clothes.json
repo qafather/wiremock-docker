@@ -1,0 +1,19 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "name": "Футболки",
+      "url": "/category/clothes/t-shirts"
+    },
+    {
+      "id": 2,
+      "name": "Рубашки",
+      "url": "/category/clothes/shirts"
+    },
+    {
+      "id": 3,
+      "name": "Брюки",
+      "url": "/category/clothes/pants"
+    }
+  ]
+}

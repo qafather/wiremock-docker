@@ -1,0 +1,19 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Кроссовки",
+      "url": "/category/shoes/sneakers"
+    },
+    {
+      "id": 2,
+      "name": "Сапоги",
+      "url": "/category/shoes/boots"
+    },
+    {
+      "id": 3,
+      "name": "Туфли",
+      "url": "/category/shoes/shoes"
+    }
+  ]
+}

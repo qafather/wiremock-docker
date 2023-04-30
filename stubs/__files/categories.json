@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Одежда",
+      "url": "/category/clothes"
+    },
+    {
+      "id": 2,
+      "name": "Обувь",
+      "url": "/category/shoes"
+    },
+    {
+      "id": 3,
+      "name": "Аксессуары",
+      "url": "/category/accessories"
+    }
+  ]
+}

@@ -2,33 +2,54 @@
   "mappings": [
     {
       "request": {
-        "method": "POST",
-        "url": "/user",
-        "headers": {
-          "Content-Type": {
-            "equalTo": "application/json"
-          }
-        },
-        "bodyPatterns": [
-          {
-            "equalToJson": {
-              "username": "${json-unit.any-string}",
-              "password": "${json-unit.any-string}"
-            },
-            "ignoreArrayOrder": true,
-            "ignoreExtraElements": true
-          }
-        ]
+        "method": "GET",
+        "url": "/categories"
       },
       "response": {
-        "status": 201,
-        "bodyFileName": "user.json",
+        "status": 200,
+        "bodyFileName": "categories.json",
         "headers": {
           "Content-Type": "application/json"
-        },
-        "transformers": [
-          "body-transformer"
-        ]
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/category/clothes"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "clothes.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/category/shoes"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "shoes.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/category/accessories"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "accessories.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
       }
     }
   ]

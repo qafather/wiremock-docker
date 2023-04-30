@@ -1,0 +1,19 @@
+{
+  "accessories": [
+    {
+      "id": 1,
+      "name": "Сумки",
+      "url": "/category/accessories/bags"
+    },
+    {
+      "id": 2,
+      "name": "Очки",
+      "url": "/category/accessories/glasses"
+    },
+    {
+      "id": 3,
+      "name": "Бумажники",
+      "url": "/category/accessories/wallets"
+    }
+  ]
+}
